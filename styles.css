@@ -9,7 +9,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #f9faf8;
 }
 
 /*Header Section*/
@@ -32,8 +31,12 @@ a {
   display: flex;
   flex-shrink: 0;
   gap: 32px;
-  font-size: 18px;
+  font-size: 18px
+}
+
+.right-links a{
   color: #e5e7eb;
+  font-weight: 300;
 }
 
 .left-links {
@@ -163,4 +166,40 @@ a {
   font-size: 24px;
   font-weight: bold;
   color: #1F2937;
+}
+
+/* Call to action signup section */
+
+.signup-container{
+  height: 360px;
+  padding: 0 40px;
+}
+
+.signup{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: #f9faf8;
+  margin: 110px 200px;
+  padding: 52px 116px;
+}
+
+.right-button button{
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-color: #f9faf8;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px 32px;
+}
+
+.sign-up-header{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sign-up-body{
+  color: #e5e7eb;
 }
